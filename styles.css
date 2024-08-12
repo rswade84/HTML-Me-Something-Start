@@ -29,11 +29,11 @@ html {
 
 /* ID Selectors */
 #mainHeading {
-  color: red; /* Make the text color red */
-  font-size: 80px; /* Additional styling per assignment */
+  color: red;
+  font-size: 80px;
   text-align: center;
-  border-radius: 10px; /* Optional: round the corners */
-  background-color: #2cad2072; /* Yellow background color */
+  border-radius: 50px;
+  background-color: #2cad2072;
 }
 
 #social {
@@ -43,8 +43,8 @@ html {
 
 /* Class Selectors */
 .funParagraph {
-  color: green; /* Make the text color green */
-  font-style: italic; /* Example additional styling */
+  color: green;
+  font-style: italic;
   font-size: 25px;
   padding: 10px;
 }
@@ -77,16 +77,24 @@ nav a {
 /* Main Content Styles */
 article {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 h2 {
   font-size: 50px;
   text-align: center;
-  color: black;
+  color: yellow;
+  border-radius: 10px;
+  background-color: red;
+  display: inline-block;
+  padding: 15px;
+  margin-bottom: 30px;
+
+
 }
 
 .pic-resize {
-  max-width: 90%; /* Ensures image does not exceed its container */
+  max-width: 90%;
   height: auto;
   display: block;
   margin-left: auto;
